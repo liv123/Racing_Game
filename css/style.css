@@ -1,0 +1,56 @@
+<!---CSS for Racing Game--->
+
+
+.container {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.container:after {
+  content: "";
+  display: 
+  clear: both;
+}
+
+.grid {
+  float: left;
+  width: 60%;
+  margin-left: 20%;
+}
+
+table {
+  margin: auto;
+}
+
+.grid th {
+  font-size: 28px;
+  color: red;
+
+
+
+}
+
+table tr td {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+  border: 2px solid #ccc;
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.btn {
+  background-color: gray;
+  text-decoration: none;
+  border: 1px solid #777;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.reset {
+  display: none;
+}
