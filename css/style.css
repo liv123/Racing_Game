@@ -9,12 +9,14 @@
   margin-left: 20%;
 }
 
-.grid:active {
-  background-color: red;
+
+
+td {
+  background-color: white;
 }
 
-td .grid {
-  background-color: gray;
+.active {
+  background-color: red;
 }
 
 table {
